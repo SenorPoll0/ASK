@@ -1,21 +1,274 @@
-.tugg-logo-name{
-  color:white;
-  font-family: Impact;
-  font-size: 48px;
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+.site {
+    max-width: none;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+	background: none;
 }
 
-.tugg-logo-container{
-  color: white;
-  font-family: Georgia;
+.site-branding{
+	background-color: #3c4149;
+	margin-bottom: 0px;
+}
+
+.site-main {
+    margin: 0px 0% 0px 0px;
+}
+
+.site-header{
+	background-color: #3c4149;
+	border-bottom: none;
+	margin: 0 0 0px;
+	padding: 0 0 0px;
+}
+
+body {
+    background-color: #EEE;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #cfedfc;
+    letter-spacing: 1px;
+	/*background-image: url('http://skipper.reverlo.fr/fcoop/wp-content/uploads/sites/4/2018/06/bgwall.png');
+	background-size: 70%;*/
+	background-color:#3c4149;
+}
+
+.main-navigation {
+    font-size: 1.3em;
+    line-height: 2.09231em;
+    text-align: center;
+	border-top: none;
+	padding-top: 0px;
+	background-color: none;
+	margin-top: 0px;
+	z-index: 10000;
+}
+
+
+.main-navigation ul a {
+    padding: 7px 9px;
+    border-bottom: 0;
+    z-index: 10000;
+}
+
+.footer-navigation {
+   margin-top: 0px;
+   color: #666;
+}
+.footer-navigation a{
+   color: #666 !important;
+}
+
+
+
+
+.main-navigation .current_page_item a{
+	color: #587c89;
+}
+
+
+
+.nav-menu{
+	font-size: 1.1em;
+}
+
+.site-content{
+	width: 70%;
+	margin: auto;
+}
+
+
+
+.site-info {
+    line-height: 1.7;
+    max-width: none;
+    text-align: center;
+	width: 100%;
+	margin: auto;
+	font-size: 1.3em;
+	color: #666;
+	z-index:10000;
+}
+
+.current_page_item a, .current-menu-item a, .current_page_item a:visited, .current-menu-item a:visited {
+
+    color: #bfd8cf;
+
+}
+
+
+.main-navigation li:hover > a {
+
+    color: #bfd8cf;
+
+}
+
+.navbottom{
+	border-top: solid 1px #cfedfc;
+	width: 40%;
+	margin: auto;
+}
+
+.site-footer{
+	background-image: url('http://skipper.reverlo.fr/fcoop/wp-content/uploads/sites/4/2018/06/bg-footer.png');
+	height: 150px;
+	border-top: none;
+}
+
+.menu-menu-foodcoop-en-container{
+/*background-image: url('http://skipper.reverlo.fr/fcoop/wp-content/uploads/sites/4/2018/06/bgnav.png');
+background-repeat: no-repeat;
+background-position-x: 50%;
+background-size: 50%;*/
+}
+
+
+.footer-perso{
+	z-index: 1000;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 38%;
+	
+}
+
+.entry-content{
+	font-size: 1.5em;
+}
+
+.footer-perso img{
+	max-width: 100%;
+	height: auto;
+	float: right;
+}
+
+.header-top{
+	background-color: #cfedfc;
+	height: 48px;
+}
+
+.fa-facebook{
+	padding-right: 5px;
+}
+.header-top .left{
+	padding-left: 15px;
+	float: left;
+	padding-top: 15px;
+	color: #666;
+	font-size: 1.2vw;
+}
+
+.header-top .right{
+	padding-right: 15px;
+	float: right;
+	padding-top: 15px;
+	font-size: 2vw;
+	z-index: 10000;
+	color: #1c7c7c;
+}
+
+.header-top .lang{
+	font-size: 0.8em;
+}
+h1, h2, h3, h4, h5, h6 {
+
+    color: #666;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.content-area	{
+	margin: 50px 0 0 0;
+}
+
+
+.press-title{
+	font-size: 150%;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 12px;
+    border: 1px solid #eee;
+	height: 25px;
+	background-color: #bfd8cf;
+}
+
+.wpcf7-textarea{
+	background-color: #bfd8cf;
+}
+
+.wpcf7-submit{
+	background-color: #bfd8cf !important;
+}
+
+.menu-toggle{
+	background: #3c4149 !important;
+	border-color: #3c4149 !important;
+}
+
+.menu-menu-footer-en-container ul:first-child {
+    display: block !important;
+}
+
+/** pop up newsletter **/
+
+.pum-theme-253 .pum-container, .pum-theme-lightbox .pum-container {
+    padding: 18px;
+    border-radius: 3px;
+    border: 0px !important;
+    box-shadow: 0px 0px 30px 0px rgba( 2, 2, 2, 1.00 );
+    background-color: #cfedfc !important;
+}
+
+.pum-theme-253 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close {
+
+    height: 30px;
+    width: 30px;
+    left: auto;
+    right: -24px;
+    bottom: auto;
+    top: -24px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 30px;
+    line-height: 26px;
+    border: 0px !important;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75 );
+    text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 );
+    background-color: #3c4149 !important;
+}
+
+.tnp-subscription{
+	font-size: 120% !important;
+}
+
+
+/* * iframe tugg * */
+.tugg-logo-name{
+	color: #7fff72 !important;
+	font-family: 'Josefin Sans', sans-serif !important; 
 }
 
 .col-xs-12{
-  color:white;
-  font-family: Georgia;
-  font-size: 18px;
+	color: #cfedfc !important;
+	font-family: 'Josefin Sans', sans-serif !important; 
 }
 
-.pointer{
-  color: white;
-  
+.ngg-galleryoverview {
+text-align:center;
 }
+
+.ngg-gallery-thumbnail-box {
+float:none !important;
+display:inline-block;
+} 
