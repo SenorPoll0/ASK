@@ -1,5 +1,21 @@
+.tugg-logo-name{
+  color:white;
+  font-family: Impact;
+  font-size: 48px;
+}
 
-.site-branding{
-	background-color: #3c4149;
-	margin-bottom: 0px;
+.tugg-logo-container{
+  color: white;
+  font-family: Georgia;
+}
+
+.col-xs-12{
+  color:white;
+  font-family: Georgia;
+  font-size: 18px;
+}
+
+.pointer{
+  color: white;
+  
 }
